@@ -1,0 +1,491 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "Avenir LT 95 Black";
+    src: url(../fonts/Avenir_LT_95_Black.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "Univers LT Std";
+    src: url(../fonts/UniversLTStd-Light.otf);
+}
+
+body {
+ margin: 0 auto;   
+}
+
+#header {
+    height: 90px;
+}
+
+#logo {
+    position: absolute;
+    padding: 25px 50px 21px 50px;
+    float: left;
+}
+
+.navigation {
+    float: right;
+    width: 80%;
+    height: 90px;
+}
+
+ul {
+    padding-left: 29%;
+    padding-top: 17px;
+}
+
+ul li {
+    display: inline;
+    padding: 22px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+	font-family: "Avenir LT 95 Black", sans-serif;
+}
+
+a:hover, p a:hover {
+    color: #FFF100;
+}
+
+p a {
+	color: black;
+}
+
+#content {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+#office2 {
+    position: absolute;
+    width: 100%;
+    height: 590px;
+    top: 90px;
+    left: 0;
+    z-index: -1;
+    float: left;
+	background-image: url('../images/fa_office_2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.clearoverlay {
+    position: absolute;
+    top: 244px;
+    left: 40%;
+    width: 267px;
+    height: 267px;
+    background-image: url('../images/fa_button_2.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    clear: both;
+}
+
+.clearoverlay:hover {
+    background-image: url('../images/fa_button_2_rollover.png');
+}
+
+h1 {
+   font-weight: bold;
+   font-size: 3.6em;
+   margin: 0 auto;
+   text-align: center;
+   font-family: "Avenir LT 95 Black", sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+	font-family: "Avenir LT 95 Black", sans-serif;
+}
+
+p {
+   padding-top: 80px;
+   font-size: 2em;
+   font-weight: bold;
+   line-height: 1.3em;
+   font-family: "Univers LT Std", sans-serif;
+}
+
+#choice {
+    padding-top: 750px;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#brand, #design, #print, #intro, #ready, #getStarted {
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#intro, #getStarted {
+	margin-top: 130px;
+}
+
+.centerimage {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#brand p, #design p, #print p, #intro p {
+    padding-top: 0;
+}
+
+#office1 {
+    width: 100%;
+    height: auto;
+}
+
+#carousel_outer {
+	width: 100%;
+	height: auto;
+	background-color: #FFF100;
+	padding-bottom: 130px;
+}
+
+#carousel_container {
+	width: 1300px;
+	background-color: red;
+	height: 800px;
+	margin: auto;
+}
+
+#carousel_inner {  
+	float: left; /* important for inline positioning */  
+	width: 900px; /* important (this width = width of list item(including margin) * items shown */  
+	height: 800px;
+	overflow: hidden;  /* important (hide the items outside the div) */  
+	background: #FFF100;  
+}  
+  
+#carousel_ul {  
+	position: relative;  
+	left:-900px; /* important (this should be negative number of list items width(including margin) */  
+	list-style-type: none; /* removing the default styling for unordered list items */  
+	margin: 0px;  
+	padding: 0px;  
+	width:9999px; /* important */
+	padding-bottom:10px;  
+}  
+  
+#carousel_ul li {  
+	float: left; /* important for inline positioning of the list items */  
+	width: 890px;  /* fixed width, important */   
+	padding: 0;  
+	height: 780px;  
+	background: #FFF100;  
+	margin-top: 0;  
+	margin-bottom: 10px;  
+	margin-left: 5px;  
+	margin-right: 5px;  
+}  
+  
+#carousel_ul li img {  
+	/*.margin-bottom: -4px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/  
+	border: 0px;  
+}  
+
+#left_scroll, #right_scroll {  
+	float: left;  
+	height: 800px;  
+	width: 200px;  
+	background: #FFF100;  
+}  
+
+#left_scroll {
+	background-image: url('../images/fa_buttons-2.png');
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+#left_scroll:hover {
+	background-image: url('../images/fa_buttons-1.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#right_scroll {
+	background-image: url('../images/fa_buttons-4.png');
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+#right_scroll:hover {
+	background-image: url('../images/fa_buttons-3.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.clientName {
+	display: block;
+	font-weight: bold;
+	text-align:center;
+	font-size: 14pt;
+	color: black;
+	padding-top: 30px;
+	text-decoration: underline;
+	font-family: "Avenir LT 95 Black", sans-serif;
+}
+
+.clientName:hover {
+	color: white;
+}
+
+.clientImage {
+	width: 890px;
+	height: 340px;
+	background-color: #FFF100;
+}
+
+.clientImage img {
+	display: block;
+    margin-right: auto;
+    margin-left: auto;
+	padding-top: 40px;
+}
+
+h1.topSpace {
+	padding-top: 120px;
+}
+
+.clientQuote {
+	padding-top: 30px;
+	margin: 0 auto;
+}
+
+/*****************************************/
+
+h1.michelle {
+	padding-top: 35px;
+	padding-bottom: 80px;
+}
+
+#imageTiles img {
+	width: 100%;
+	height: auto;
+}
+
+#ready {
+	padding-top: 130px;
+}
+
+#ready p {
+	text-align: center;
+}
+
+span.smaller {
+	font-size: 0.8em;
+}
+
+.upanishads {
+	width: 100%;
+}
+
+#startButtonArea {
+	width: 358px;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+
+#startButton {
+	width: 358px;
+	height: 59px;
+	margin: 0 auto;
+	background-image: url('../images/fa_get_on_button.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#startButton:hover {
+	background-image: url('../images/fa_get_on_button_rollover.png');
+}
+
+#getStarted h1 {
+	padding-top: 30px;
+}
+
+/********************************************************
+
+This section contains stylings for the homepage portfolio
+
+*********************************************************/
+
+#work {
+	width: 100%;
+	height: auto;
+}
+
+.outerImgWideLeft {
+	width: 50%;
+	padding-top: 33%;
+	position: relative;
+	float: left;
+}
+
+.outerImgWideRight {
+	width: 50%;
+	padding-top: 33%;
+	position: relative;
+	float: right;
+}
+
+.outerImgTallLeft {
+	width: 50%;
+	padding-top: 67%;
+	position: relative;
+	float: left;
+}
+
+.outerImgTallRight {
+	width: 50%;
+	padding-top: 67%;
+	position: relative;
+	float: right;
+}
+
+#soleil {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('../images/fa_se_rollover.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#jami {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('../images/fa_jf_rollover.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#rgp {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('../images/fa_rgp_rollover.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#miracle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('../images/fa_mm_rollover.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#philosophy {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('../images/fa_pl_rollover.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#marriage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('../images/fa_lme_rollover.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#pushing {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('../images/fa_pb_rollover.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#smartgrowth {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('../images/fa_sg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#workButtonArea {
+	width: 100%;
+	height: 200px;
+	padding-top: 100px;
+	clear: both;
+}
+
+#workButton {
+	width: 400px;
+	height: 66px;
+	margin: 0 auto;
+	background-image: url('../images/fa_button_3.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#workButton:hover {
+	background-image: url('../images/fa_work_button_rollover.png');
+}
+
+.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+.grayscale:hover {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+
+/*********************************************************/
+
+#footer {
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 0.5em;
+}
+
+#footer p {
+	padding: 0;
+	padding-top: 33px;
+	padding-left: 50px;
+}

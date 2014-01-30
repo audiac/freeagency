@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "Avenir LT 95 Black";
+    src: url(../fonts/Avenir_LT_95_Black.ttf) format("truetype");
+}
+
+body {
+ margin: 0 auto;   
+}
+
+#header {
+    height: 90px;
+}
+
+#logo {
+    position: absolute;
+    padding: 25px 50px 21px 50px;
+    float: left;
+}
+
+.navigation {
+    float: right;
+    width: 80%;
+    height: 90px;
+}
+
+ul {
+    padding-left: 29%;
+    padding-top: 17px;
+}
+
+ul li {
+    display: inline;
+    padding: 22px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+	font-family: "Avenir LT 95 Black";
+}
+
+a:hover, p a:hover {
+    color: #FFF100;
+}
+
+p a {
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 100px;
+	font-family: "Avenir LT 95 Black";
+}
