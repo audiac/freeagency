@@ -20,14 +20,10 @@
         if ($name != '' && $email != '') {				 
             if (mail ($to, $subject, $body, $from)) { 
 				header('Location: ../formConfirm.html');
-	    } 
-            else { 
-	        echo '<p>Something went wrong, please go back and try again!</p>'; 
-	    } 
-	}
-    }/* 
-    else {
-        echo '<p>Please fill in all required fields!</p>';
-    }*/
+	        } else {
+                echo '<p>Something went wrong, please go back and try again!</p>'; 
+	        } 
+	    }
+    }
     
 ?>

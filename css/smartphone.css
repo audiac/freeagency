@@ -1,1 +1,20 @@
-@charset "UTF-8";#carousel_outer{display:none}#brand,#choice,#design,#getStarted,#intro,#print,#ready{width:auto}p{padding-left:35px;padding-right:35px}
+@charset "UTF-8";
+
+#carousel_outer {
+	display: none;
+}
+
+#brand,
+#choice,
+#design,
+#getStarted,
+#intro,
+#print,
+#ready {
+	width: auto;
+}
+
+p {
+	padding-left: 35px;
+	padding-right: 35px;
+}
