@@ -288,10 +288,6 @@ span.smaller {
 	font-size: 0.8em;
 }
 
-.upanishads {
-	width: 100%;
-}
-
 #startButtonArea {
 	width: 358px;
 	margin: 0 auto;
@@ -475,6 +471,66 @@ This section contains stylings for the homepage portfolio
 }
 
 /*********************************************************/
+/* MailChimp signup form                                 */
+/*********************************************************/
+
+#mc_embed_signup {
+    background-color: #d9d7d7;
+    width: 100%;
+    padding: 125px 0 125px 0;
+}
+
+#mce-EMAIL {
+    display: block;
+    width: 450px;
+	height: 25px;
+	border: 2px solid #000000;
+	padding: 10px;
+    margin: 0 auto;
+    margin-top: 80px;
+	font-size: 1.2em;
+	color: #3a3a3a;
+}
+
+#mce-EMAIL:focus {
+    border: 2px solid #000000;
+    background-color: #dedede;
+	outline-color: #FFF100;
+}
+
+#mc-embedded-subscribe-form {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.mc-field-group p {
+    padding-top: 40px;
+}
+
+#mc-embedded-subscribe {
+    display: block;
+    border: none;
+    cursor: pointer;
+	margin: 0 auto;
+	padding: 0;
+	height: 59px;
+	width: 220px;
+	margin-top: 40px;
+}
+
+input[id="mc-embedded-subscribe"] {
+	background-image: url(../images/fa_buttons-6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #000000;
+	font-size: 1px;
+}
+
+#mc-embedded-subscribe:hover {
+    background-image: url('../images/fa_buttons-5.jpg');
+}
+
+/******************************************************/
 
 #footer {
 	width: 100%;
