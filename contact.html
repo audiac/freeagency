@@ -2,7 +2,7 @@
 <html><head>
         <title></title>
             
-        <link href="css/contact.min.css" rel="stylesheet">
+        <link href="css/contact.css" rel="stylesheet">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body>
@@ -19,35 +19,15 @@
             </div>
         </div>
         
-        <h1>LET'S HEAR FROM YOU.</h1>
-        
-        <h2>WHO YOU ARE</h2>
+        <h1>WE'D LOVE TO HEAR FROM YOU.</h1>
         
         <form method="POST" action="scripts/mail.php">
 
-            <input name="name" placeholder="Full Name*" required>
+            <input name="name" placeholder="Full Name*" class="leftMost" required>
             
             <input name="email" type="email" placeholder="Email*" required>
             
-            <input class="rightMost" name="company" placeholder="Company">
-            
-            <input name="location" placeholder="City/State">
-           
-            <input name="phone" placeholder="Phone">
-            
-            <input class="rightMost" name="website" placeholder="Website">
-            
-            <h2>ABOUT YOUR PROJECT</h2>
-            
-            <input name="project" placeholder="Project Name">
-            
-            <input name="timeline" placeholder="Timeline">
-            
-            <input class="rightMost" name="budget" placeholder="Budget*" required>
-            
             <textarea name="details" placeholder="Give us the details.*" required></textarea>
-            
-            <input id="referenceBox" name="refer" placeholder="How did you hear about us?">
             
             <input id="submit" name="submit" type="image" value="submit">
         </form>

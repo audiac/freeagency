@@ -84,27 +84,25 @@ form {
 }
 
 input, textarea {
-	width: 210px;
+	width: 359px;
 	height: 35px;
 	background: #FFFFFF;
 	border: 2px solid #000000;
 	padding: 10px;
-	margin-top: 3px;
-	margin-right: 50px;
-	margin-bottom: 40px;
+	margin: 3px 0 40px 0;
 	font-size: 1.2em;
 	color: #3a3a3a;
 	display: inline-block;
 }
 
 textarea {
-	height: 213px;
+	height: 500px;
 	width: 787px;
 	resize: none;
 }
 
-.rightMost {
-	margin-right: 0;
+.leftMost {
+	margin-right: 40px;
 }
 
 #referenceBox {
