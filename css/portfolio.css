@@ -22,7 +22,12 @@ This section contains styles for the header
 
 #header {
     height: 90px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #fff;
 }
+
 
 #logo {
     position: absolute;
@@ -70,6 +75,7 @@ p a {
 
 .openingAsset img {
 	width: 100%;
+    margin-top: 90px;
 }
 
 h1 {

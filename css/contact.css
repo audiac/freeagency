@@ -17,7 +17,13 @@ body {
 
 #header {
     height: 90px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
 }
+
 
 #logo {
     position: absolute;
